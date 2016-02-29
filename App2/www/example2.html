@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>My web page</h1>
+        <p id="demo">Meu paragrafo</p>
+        <button type="button" onClick="realiza()">Teste</button>
+        <script>
+            var cont = 0;
+            function realiza(){
+                cont++;
+                document.getElementById('demo').innerHTML = "Quantidade de cliques - " + cont;
+                console.log(cont);
+            }
+        </script>
+        
+    </div>
+</body>
+</html>

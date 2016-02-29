@@ -1,2 +1,28 @@
 ﻿body {
+    background-color: dodgerblue;
+    color: #f2f2f2;
+    font-family: 'Segoe UI';
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 5px 15px;
+    border-left: 1px solid #FFF;
+    margin-left: 0;
+    background-color: #0066ff;
+}
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 30px;
 }
